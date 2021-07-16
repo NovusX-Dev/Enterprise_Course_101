@@ -17,7 +17,7 @@ public class NamePanel : MonoBehaviour, IPanel
 
     public void ProcessInfo()
     {
-        if (string.IsNullOrEmpty(_firstNameField.text) && string.IsNullOrEmpty(_LastNameField.text))
+        if (!string.IsNullOrEmpty(_firstNameField.text) && !string.IsNullOrEmpty(_LastNameField.text))
         {
             UIManager.Instance.activeCase.name = _firstNameField.text + " " + _LastNameField.text;
             _locationPanel.gameObject.SetActive(true);

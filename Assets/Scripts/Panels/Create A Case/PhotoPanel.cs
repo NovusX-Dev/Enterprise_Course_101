@@ -17,6 +17,9 @@ public class PhotoPanel : MonoBehaviour, IPanel
 
     public void ProcessInfo()
     {
-        
+        if (!string.IsNullOrEmpty(_photoNotes.text))
+        {
+            UIManager.Instance.activeCase.photoNotes = _photoNotes.text;
+        }
     }
 }
