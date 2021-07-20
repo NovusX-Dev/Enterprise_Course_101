@@ -1,0 +1,5 @@
+MAP API: AIzaSyAq7ncBWHkFF3SH_Xnb3QVpFY_a_NY4phE
+S3 Identity: us-east-2:32690323-db25-474c-87de-92cee4c0071f
+
+Role ARN
+arn:aws:iam::035128065091:role/Cognito_GDHQServiceAdjustmentAppUnauth_Role 

@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 
+
 public class LocationPanel : MonoBehaviour, IPanel
 {
     [SerializeField] Text _caseNumberText;
@@ -40,14 +41,12 @@ public class LocationPanel : MonoBehaviour, IPanel
             if (maxWaitTime < 1f)
             {
                 StartCoroutine(WarningMessage("Location services failed to initialize, please try again."));
-                yield break;
             }
 
             // Connection has failed
             if(Input.location.status == LocationServiceStatus.Failed)
             {
                 StartCoroutine(WarningMessage("Connection failed, please check your connection"));
-                yield break;
             }
             else
             {
@@ -61,7 +60,10 @@ public class LocationPanel : MonoBehaviour, IPanel
         else
         {
             StartCoroutine(WarningMessage("Please enable location services."));
-            yield break;
+            #if UNITY_EDITOR
+            _xCord = -23.5266189f;
+            _yCord = -46.6098616f;
+            #endif
         }
 
         #endregion
@@ -70,6 +72,7 @@ public class LocationPanel : MonoBehaviour, IPanel
 
         _url = _url + "center=" + _xCord + "," + _yCord + "&zoom=" + _zoom + "&size=" + _imageSize + "x" + 
                _imageSize + "&markers=color:red%7Clabel:P%7C" + _xCord + "," + _yCord + "&key=" + _apiKey;
+
 
         StartCoroutine(GetMapRoutine(_url, (UnityWebRequest req) =>
         {
@@ -83,6 +86,7 @@ public class LocationPanel : MonoBehaviour, IPanel
                 _mapImage.texture = mapTexture;
             }
         }));
+
     }
 
     public void ProcessInfo()
