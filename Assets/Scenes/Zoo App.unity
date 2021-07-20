@@ -1532,7 +1532,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 544952882}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234362591}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &544952882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1812,7 +1824,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &623369180
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1952,11 +1964,11 @@ RectTransform:
   m_Children:
   - {fileID: 1064361456}
   - {fileID: 1537412121}
-  - {fileID: 1489322368}
-  - {fileID: 1818264368}
   - {fileID: 894102047}
   - {fileID: 2058700317}
   - {fileID: 919139296}
+  - {fileID: 1489322368}
+  - {fileID: 1818264368}
   - {fileID: 1114868044}
   - {fileID: 1613205921}
   - {fileID: 419155264}
@@ -2304,7 +2316,7 @@ GameObject:
   - component: {fileID: 894102049}
   - component: {fileID: 894102048}
   m_Layer: 5
-  m_Name: Africa_Button
+  m_Name: Africa_Button_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2323,7 +2335,7 @@ RectTransform:
   m_Children:
   - {fileID: 2118375360}
   m_Father: {fileID: 641575847}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -2373,7 +2385,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 894102049}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234362595}
+        m_TargetAssemblyTypeName: CardView, Assembly-CSharp
+        m_MethodName: PopulateSelectedCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1234362591}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &894102049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2425,7 +2461,7 @@ GameObject:
   - component: {fileID: 919139298}
   - component: {fileID: 919139297}
   m_Layer: 5
-  m_Name: Cats_Button
+  m_Name: Cats_Button_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2444,7 +2480,7 @@ RectTransform:
   m_Children:
   - {fileID: 1536455802}
   m_Father: {fileID: 641575847}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -2494,7 +2530,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 919139298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234362595}
+        m_TargetAssemblyTypeName: CardView, Assembly-CSharp
+        m_MethodName: PopulateSelectedCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1234362591}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &919139298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2980,7 +3040,7 @@ GameObject:
   - component: {fileID: 1114868046}
   - component: {fileID: 1114868045}
   m_Layer: 5
-  m_Name: Monkey_Button
+  m_Name: Monkey_Button_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3049,7 +3109,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1114868046}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234362595}
+        m_TargetAssemblyTypeName: CardView, Assembly-CSharp
+        m_MethodName: PopulateSelectedCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1234362591}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1114868046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3233,13 +3317,14 @@ GameObject:
   - component: {fileID: 1234362592}
   - component: {fileID: 1234362594}
   - component: {fileID: 1234362593}
+  - component: {fileID: 1234362595}
   m_Layer: 5
   m_Name: View_Card_Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1234362592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3305,6 +3390,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234362591}
   m_CullTransparentMesh: 1
+--- !u!114 &1234362595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234362591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e546ff2ea37ea4bbb209e365957d8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _titleText: {fileID: 460210190}
+  _descriptionText: {fileID: 436301036}
+  _animalsExhibit: {fileID: 1107009636}
+  _animalImage: {fileID: 628382041}
+  cards:
+  - {fileID: 11400000, guid: 0f8e03e069af4b146876fb3934c7b23d, type: 2}
+  - {fileID: 11400000, guid: 3737a123b9d0df2429a45afe6111280c, type: 2}
+  - {fileID: 11400000, guid: 16a72cc588d0fd74188e7872858aec8c, type: 2}
+  - {fileID: 11400000, guid: 73ece95a1e02e6c4a98e3c514cfd1b15, type: 2}
+  - {fileID: 11400000, guid: c7a14a53bb75ffd4f976789b9f103caf, type: 2}
+  - {fileID: 11400000, guid: 7d30cbe0e22d5244ba4689cd9ff688a0, type: 2}
 --- !u!1 &1310578640
 GameObject:
   m_ObjectHideFlags: 0
@@ -3393,7 +3501,7 @@ GameObject:
   - component: {fileID: 1489322370}
   - component: {fileID: 1489322369}
   m_Layer: 5
-  m_Name: Eagles_Button
+  m_Name: Eagles_Button_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3412,7 +3520,7 @@ RectTransform:
   m_Children:
   - {fileID: 2056361802}
   m_Father: {fileID: 641575847}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -3462,7 +3570,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1489322370}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234362595}
+        m_TargetAssemblyTypeName: CardView, Assembly-CSharp
+        m_MethodName: PopulateSelectedCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1234362591}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1489322370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4235,7 +4367,7 @@ GameObject:
   - component: {fileID: 1818264370}
   - component: {fileID: 1818264369}
   m_Layer: 5
-  m_Name: Giant_Button
+  m_Name: Giant_Button_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4254,7 +4386,7 @@ RectTransform:
   m_Children:
   - {fileID: 364173877}
   m_Father: {fileID: 641575847}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -4304,7 +4436,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1818264370}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234362595}
+        m_TargetAssemblyTypeName: CardView, Assembly-CSharp
+        m_MethodName: PopulateSelectedCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1234362591}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1818264370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4640,7 +4796,7 @@ GameObject:
   - component: {fileID: 2058700319}
   - component: {fileID: 2058700318}
   m_Layer: 5
-  m_Name: Bear_Button
+  m_Name: Bear_Button_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4659,7 +4815,7 @@ RectTransform:
   m_Children:
   - {fileID: 463442448}
   m_Father: {fileID: 641575847}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -4709,7 +4865,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2058700319}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234362595}
+        m_TargetAssemblyTypeName: CardView, Assembly-CSharp
+        m_MethodName: PopulateSelectedCard
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1234362591}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &2058700319
 MonoBehaviour:
   m_ObjectHideFlags: 0

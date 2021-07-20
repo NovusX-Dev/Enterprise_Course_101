@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9118700f47da6448508a3fa55c8ecb, type: 3}
+  m_Name: Eagles Nest
+  m_EditorClassIdentifier: 
+  titleText: EAGLES NEST
+  descriptionText: OUR AERIAL FRIENDS AND CLOSEST RELATIVES TO THE ANCIENT DINOSAURS
+    FROM 60 MILLION YEARS AGO.
+  animalsExhibit: EAGLES, HAWKS, PARROTS, STORK
+  animalImage: {fileID: 21300000, guid: 6790ca8ea453042469138874bb33f490, type: 3}
